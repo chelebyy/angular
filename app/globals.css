@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 15, 15, 23;
+  --background-end-rgb: 15, 15, 23;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+  font-family: "Inter", sans-serif;
+}
+
+input::placeholder {
+  color: #4b5563;
+}
+
